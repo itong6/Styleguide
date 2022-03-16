@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meaty Styleguide</title>
+    <link rel="stylesheet" href="logo.css">
+</head>
+<body>
+
+    <header class="nav_cont">
+        <a href="./index.html">
+            <img class="logo" src="https://i.pinimg.com/originals/ca/26/69/ca2669543fde95a31f4265dd9feed8d4.jpg" alt="Meaty Logo">
+        </a>
+        <ul class="nav">
+            <li>
+                <a class="logo-nav" href="">Logo</a>
+            </li>
+            <li>
+                <a class="color-nav" href="">Color</a>
+            </li>
+            <li>
+                <a class="typography-nav" href="">Typography</a>
+            </li>
+            <li>
+                <a class="icon-nav" href="">Icon</a>
+            </li>
+        </ul>
+    </header>
+
+</body>
+</html>
