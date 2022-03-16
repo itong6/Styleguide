@@ -8,11 +8,22 @@ body, html {
 
 
 /* Header */
+header{
+    width: 100vw;
+    margin-bottom: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
 
 .nav {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
+    margin-top: 0;
 }
 
 a {
