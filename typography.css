@@ -13,13 +13,20 @@
     font-size: 2rem;
 }
 
-.type-cont {
+.type-desc-cont {
     display: flex;
 }
 
+.type-cont {
+    display: flex;
+    flex-direction: column;
+}
+
 .desc {
-    margin-top: 30rem;
-    margin-left: 7rem;
+    font-size: 1.5rem;
+    margin-top: 14rem;
+    margin-left: 10rem;
+    margin-right: 3rem;
 }
 
 .roboto-mono-regular {
@@ -29,4 +36,108 @@
     font-family:"Roboto Mono", sans-serif;
     font-weight: 400;
     font-size: 2rem;
+}
+
+.type-size-cont {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.row {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-type {
+    margin-left: 5rem;
+}
+
+.size {
+    position: relative;
+    display: flex;
+    margin-left: 23rem;
+    bottom: 1rem;
+}
+
+.head-two-size {
+    position: relative;
+    display: flex;
+    margin-left: 24rem;
+    bottom: 1rem;
+}
+
+.head-three-size {
+    position: relative;
+    display: flex;
+    margin-left: 26rem;
+    bottom: 1rem;
+}
+
+.head-four-size {
+    position: relative;
+    display: flex;
+    margin-left: 27rem;
+    bottom: 1rem;
+}
+
+.body-size {
+    position: relative;
+    display: flex;
+    margin-left: 28rem;
+    bottom: 1rem;
+}
+
+.body-size-two {
+    position: relative;
+    display: flex;
+    margin-left: 29.5rem;
+    bottom: 1rem;
+}
+
+.head-one-type{
+    margin-left: 5rem;
+    font-family:"Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.head-two-type{
+    margin-left: 5rem;
+    font-family:"Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.head-three-type{
+    margin-left: 5rem;
+    font-family:"Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-size:28px;
+}
+
+.head-four-type{
+    margin-left: 5rem;
+    font-family:"Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-size:24px;
+}
+
+.body-text-one-type{
+    margin-left: 5rem;
+    font-family:"Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size:16px;
+}
+
+.body-text-two-type{
+    margin-left: 5rem;
+    font-family:"Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size:12px;
 }
