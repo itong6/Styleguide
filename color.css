@@ -1,0 +1,56 @@
+.page-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+
+.color-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.colors-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colors-cont > div {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    margin-right: 3rem;
+    height: 10vh;
+    width: 40vw;
+    max-height: 80px;
+    max-width: 150px;
+    border-radius: 10%;
+    color: white;
+}
+
+.color-one {
+    background-color: #333333;
+}
+
+.color-two {
+    background-color: #871010;
+}
+
+#color-three {
+    background-color: #FFF4D7;
+    color: black;
+}
+
+#color-four {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.desc {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
