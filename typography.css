@@ -51,6 +51,8 @@
 
 .row-content {
     display: flex;
+    justify-content: start;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -100,6 +102,13 @@
     bottom: 1rem;
 }
 
+.button-size {
+    position: relative;
+    display: flex;
+    margin-left: 20rem;
+    bottom: 1rem;
+}
+
 .head-one-type{
     margin-left: 5rem;
     font-family:"Roboto Mono", sans-serif;
@@ -128,6 +137,30 @@
     font-size:24px;
 }
 
+.head-five-type{
+    margin-left: 5rem;
+    font-family:'Roboto Mono', monospace;
+    font-style: italic;
+    font-weight: 400;
+    font-size:24px;
+}
+
+.button-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-family:"Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    background-color: #871010;
+    height: 10vh;
+    width: 15vw;
+    border-radius: 4px;
+    color: white;
+}
+
 .body-text-one-type{
     margin-left: 5rem;
     font-family:"Roboto Mono", sans-serif;
@@ -140,4 +173,17 @@
     font-family:"Roboto Mono", sans-serif;
     font-weight: 400;
     font-size:12px;
+}
+
+.heading-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1.25em;
+}
+
+.heading-desc-margin {
+    margin-bottom: 2rem;
 }
