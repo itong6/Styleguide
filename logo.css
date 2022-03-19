@@ -2,6 +2,7 @@ body {background-color: #fffafa;}
 
 h1 {font-size: 36px;}
 
+/* main section */
 .main-section {
     display: flex;
     flex-direction: column;
@@ -11,12 +12,19 @@ h1 {font-size: 36px;}
 
 .main-img {
     width: 300px;
-    margin: 1em 1em 1em 1em;
+    margin: 1em 1em 5em 1em;
 }
 
+.main-section > p {
+    width: 800px;
+    text-align: center;
+}
+/* main section */
+
+/* iterations section */
 .iterations-section {
-    background-color: #585858;
-    padding: 1em 1em 4em 2em;
+    background-color: #FFF4D7;
+    padding: 1em 1em 1em 2em;
 }
 
 .iteration-content {
@@ -32,19 +40,21 @@ h1 {font-size: 36px;}
 }
 
 .iteration-content div:nth-child(even) {
-    flex-direction: column-reverse;
-    margin-top: 6em;
+    margin-top: 13em;
 }
 
 .iteration-content img {
-    width: 150px;
+    width: 200px;
     margin: 1.5em;
 }
 
 .iteration-content p {
     font-size: 20px;
+    padding: 1em;
 }
+/* iterations section */
 
+/* logo palette section */
 .palette-section {
     background-color: rgb(10, 110, 55);
     padding: 1em 1em 4em 2em;
@@ -93,7 +103,9 @@ h1 {font-size: 36px;}
 #colour3 {background-color: #CA3625;}
 #colour4 {background-color: #F2A8DC;}
 #colour5 {background-color: #E5E1E6;}
+/* logo palette section */
 
+/* clearspace section */
 .clearspace-section {
     background-color: rgb(255, 255, 255);
     padding: 6em 0 6em 0;
@@ -104,7 +116,7 @@ h1 {font-size: 36px;}
     align-items: center;
 }
 
-.wordmarks {
+.clearspace-imgs {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -118,9 +130,10 @@ h1 {font-size: 36px;}
     align-items: center;
 }
 
-.clearspace-desc {
+.clearspace-text > p {
     width: 350px;
     text-align: center;
+    font-size: 16px;
 }
 
 .hor-wm {
@@ -134,3 +147,4 @@ h1 {font-size: 36px;}
     object-fit: contain;
     margin-bottom: 4em;
 }
+/* clearspace section */
