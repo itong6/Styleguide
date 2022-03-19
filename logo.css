@@ -1,46 +1,87 @@
 .logos {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(119, 119, 119);
+    padding: 4em 0 4em 0;
 }
 
-.logo1 {
-    object-fit: cover;
+.coloured-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+}
+
+#white-text {color: white;}
+
+.coloured-img {
+    object-fit: contain;
     width: 400px;
     height: 400px;
-    margin: 10%;
-}
-
-.pallette {
-    background-color: rgb(150, 150, 150);
 }
 
 .swatch {
-    width: 100px;
-    height: 100px;
-    margin: 1em;
+    width: 70px;
+    height: 70px;
+    margin: 1em 1.5em 1em 1em;
+    border-radius: 1em;
+}
+
+.pallatte {
+    flex: 1;
 }
 
 .colour {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-#colour1 {background-color: red;}
-#colour2 {background-color: orange;}
-#colour3 {background-color: rgb(54, 196, 41);}
-#colour4 {background-color: green;}
-#colour5 {background-color: blue;}
+#colour1 {background-color: #F88D2A;}
+#colour2 {background-color: #FED925;}
+#colour3 {background-color: #CA3625;}
+#colour4 {background-color: #F2A8DC;}
+#colour5 {background-color: #E5E1E6;}
 
-.word {
+.logo-clearspace {
+    background-color: rgb(241, 241, 241);
+    padding-top: 8em;
+}
+
+.clearspace {
+    display: flex;
+    align-items: center;
+}
+
+.wordmarks {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.wordmark {
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
+.clearspace-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clearspace-desc {
+    width: 350px;
+    text-align: center;
+
+}
+
+.hor-wm {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    margin-top: 1em;
+}
+
+.ver-wm {
+    width: 400px;
+    object-fit: contain;
+    margin-bottom: 1em;
 }
