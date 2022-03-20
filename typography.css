@@ -1,3 +1,7 @@
+main {
+    font-family:"Roboto Mono";
+}
+
 .page-header {
     display: flex;
     justify-content: center;
@@ -56,14 +60,24 @@
     flex-direction: row;
 }
 
-.logo-type {
+#logo-type {
     margin-left: 5rem;
+    font-family: 'Puritan', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .size {
     position: relative;
     display: flex;
     margin-left: 23rem;
+    bottom: 1rem;
+}
+
+.logo-size {
+    position: relative;
+    display: flex;
+    margin-left: 31rem;
     bottom: 1rem;
 }
 
@@ -82,6 +96,13 @@
 }
 
 .head-four-size {
+    position: relative;
+    display: flex;
+    margin-left: 27rem;
+    bottom: 1rem;
+}
+
+.head-five-size {
     position: relative;
     display: flex;
     margin-left: 27rem;
