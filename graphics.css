@@ -1,5 +1,4 @@
 body {background-color: #FFF4D7;}
-h1 {text-align: center;}
 
 p {
     text-align: center;
@@ -9,34 +8,56 @@ p {
 
 #italic {font-style: italic;}
 
-.graphics-content {
+.intro-text > p {width: 90%;}
+
+.intro > h1 {text-align: center;}
+
+.sprites-cont {
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    flex-direction: row;
 }
 
-.graphics-content img {
-width: 300px;
-margin: 4em;
-}
-
-.graphics-content > div {
+.sprites-cont img {
+    width: 100px;
+    object-fit: contain;
     flex: 1;
+    margin: 1em 1em 3em 1em;
+}
+
+.intro-text, .sprite-text, .pattern-text {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.sprite-text p, .pattern-text p {
+    text-align: center;
+    width: 60%;
+    margin: 4em 2em 4em 2em;
+}
+
+.intro, .patterns, .sprites {
+    margin: 4em 1em 2em 1em;
+}
+
+.patterns-cont {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
-#chicken-img {
-    height: 250px;
-}
-
-#centered-text {
-    text-align: center;
-    width: 50%;
-    margin: 2em;
-}
-
-.patterns > img {
-    width: 300px;
+.patterns-cont img {
+    width: 100px;
     object-fit: contain;
+    flex: 1;
+    margin: 1em;
+}
+
+.centered-box > p {
+    width: 75%;
+}
+
+.patterns h1, .sprites h1 {
+    text-align: left;
+    margin: 0;
 }
