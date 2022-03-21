@@ -2,8 +2,9 @@ body {background-color: #FFF4D7;}
 
 p {
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 25px;
+    font-family: "Roboto Mono";
 }
 
 #italic {font-style: italic;}
@@ -61,3 +62,5 @@ p {
     text-align: left;
     margin: 0;
 }
+
+.patterns h1 {margin-bottom: 1.5em;}

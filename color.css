@@ -1,3 +1,9 @@
+body {
+    font-family: "Roboto Mono";
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
 .page-header {
     display: flex;
     justify-content: center;
@@ -27,8 +33,14 @@
     width: 40vw;
     max-height: 80px;
     max-width: 150px;
-    border-radius: 50px;
+    border-radius: 10%;
     color: white;
+}
+
+.colors-cont > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .color-one {
