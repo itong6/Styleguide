@@ -1,3 +1,7 @@
+main {
+    font-family:"Roboto Mono";
+}
+
 .page-header {
     display: flex;
     justify-content: center;
@@ -56,14 +60,32 @@
     flex-direction: row;
 }
 
+#logo-type {
+    margin-left: 5rem;
+    font-family: 'Puritan', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
 .logo-type {
     margin-left: 5rem;
+    font-family: 'Puritan', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #871010;
 }
 
 .size {
     position: relative;
     display: flex;
     margin-left: 23rem;
+    bottom: 1rem;
+}
+
+.logo-size {
+    position: relative;
+    display: flex;
+    margin-left: 31rem;
     bottom: 1rem;
 }
 
@@ -82,6 +104,13 @@
 }
 
 .head-four-size {
+    position: relative;
+    display: flex;
+    margin-left: 27rem;
+    bottom: 1rem;
+}
+
+.head-five-size {
     position: relative;
     display: flex;
     margin-left: 27rem;
@@ -172,7 +201,7 @@
     margin-left: 5rem;
     font-family:"Roboto Mono", sans-serif;
     font-weight: 400;
-    font-size:12px;
+    font-size:14px;
 }
 
 .heading-desc {
