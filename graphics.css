@@ -35,3 +35,8 @@ margin: 4em;
     width: 50%;
     margin: 2em;
 }
+
+.patterns > img {
+    width: 300px;
+    object-fit: contain;
+}
