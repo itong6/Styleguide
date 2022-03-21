@@ -1,6 +1,13 @@
 body {background-color: #FFF4D7;}
 h1 {text-align: center;}
-p {text-align: center;}
+
+p {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#italic {font-style: italic;}
 
 .graphics-content {
     display: flex;
@@ -21,4 +28,10 @@ margin: 4em;
 
 #chicken-img {
     height: 250px;
+}
+
+#centered-text {
+    text-align: center;
+    width: 50%;
+    margin: 2em;
 }
