@@ -155,3 +155,64 @@ p {
     margin-bottom: 4em;
 }
 /* clearspace section */
+
+.restrictions-section {padding: 1em 1em 4em 2em;}
+
+.restrictions-section > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 1em 3em 1em;
+}
+
+.restriction-ratio {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em 1em 50px;
+    align-items: center;
+}
+
+.ratio-imgs {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    align-items: baseline;
+    margin: 1em;
+}
+
+.ratio-imgs > img {
+    width: 100px;
+    height: 200px;
+}
+
+.ratio-imgs > img:nth-child(even) {
+    width: 200px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+.x {
+    border: 6px solid red;
+    width: 50px; height: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+}
+
+.restriction-rotate {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em 1em 50px;
+    align-items: center;
+    width: 485px;
+}
+
+.restriction-rotate > img { 
+    transform: rotate(45deg);
+    width: 150px;
+    margin: 2em;
+}
