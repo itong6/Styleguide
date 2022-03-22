@@ -65,3 +65,72 @@ p {
 }
 
 .patterns h1 {margin-bottom: 1.5em;}
+
+.stunning-methods-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stunning-methods-cont img {
+    height: 200px;
+    width: 100px;
+    object-fit: contain;
+    flex: 1;
+    margin: 1em;
+}
+
+#co2 {
+    height: 200px;
+}
+
+#stunning-tongs {
+    height: 200px;
+}
+
+.centered-box > p {
+    width: 75%;
+}
+
+.stunning-methods h1, .sprites h1 {
+    text-align: left;
+    margin: 0;
+}
+
+.stunning-methods h1 {
+    margin-bottom: 1.5em;
+    margin-left: 1em;
+}
+
+.weapons-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.weapons-cont img {
+    height: 200px;
+    width: 100px;
+    object-fit: contain;
+    flex: 1;
+    margin: 1em;
+}
+
+#cleaver {
+    height: 300px;
+}
+
+.centered-box > p {
+    width: 75%;
+}
+
+.weapons h1, .sprites h1 {
+    text-align: left;
+    margin: 0;
+}
+
+.weapons h1 {
+    margin-bottom: 1.5em;
+    margin-left: 1em;
+}
