@@ -59,8 +59,9 @@ p {
 }
 
 .patterns h1, .sprites h1 {
-    text-align: left;
+    text-align: center;
     margin: 0;
+    font-size: 28px;
 }
 
 .patterns h1 {margin-bottom: 1.5em;}
