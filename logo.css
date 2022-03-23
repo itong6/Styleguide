@@ -216,3 +216,8 @@ p {
     width: 150px;
     margin: 2em;
 }
+
+.names {
+    margin: 0 0 0 2em;
+    font-weight: bolder;
+}
